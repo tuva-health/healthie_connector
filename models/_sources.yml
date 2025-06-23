@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+ - name: healthie
+   database: healthie
+   schema: healthie_raw
+   tables:
+     - name: appointment
+     - name: cms_1500
+     - name: diagnosis
+     - name: location
+     - name: organization
+     - name: user
