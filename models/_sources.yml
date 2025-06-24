@@ -7,7 +7,10 @@ sources:
    tables:
      - name: appointment
      - name: cms_1500
+     - name: cpt_codes_cms_1500
      - name: diagnosis
+     - name: icd_codes_cms_1500
      - name: location
+     - name: medication_type
      - name: organization
      - name: user

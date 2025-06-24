@@ -16,4 +16,4 @@ select
     , cast(user as {{ dbt.type_string() }}) as user
     , cast(user_id as {{ dbt.type_string() }}) as user_id
     , cast(zip as {{ dbt.type_string() }}) as zip
-from {{ source('healthie', 'location') }} as ll.
+from {{ source('healthie', 'location') }} as l
