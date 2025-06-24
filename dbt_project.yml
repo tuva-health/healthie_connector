@@ -1,4 +1,4 @@
-name: connector_template
+name: healthie_connector
 version: '1.0.0'
 
 # This setting configures which "profile" dbt uses for this project.
@@ -38,7 +38,7 @@ seeds:
       +enabled: false
 
 models:
-  connector_template:
+  healthie_connector:
     staging:
       +materialized: table
       +schema: _input_layer
